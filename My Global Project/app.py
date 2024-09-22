@@ -31,9 +31,9 @@ def read_and_email(filename, to_email, from_email, from_email_password):
 
 def main():
     filename = r"C:\\Users\\meera\\Downloads\\Location_Report.txt"
-    to_email = "meera.rd.0709@gmail.com"
-    from_email = "srikar.ganesh2004@gmail.com"
-    from_email_password = "oeao hmtq vvud fvfx"
+    to_email = "reciever@gmail.com"
+    from_email = "sender@gmail.com"
+    from_email_password = "password"
     read_and_email(filename, to_email, from_email, from_email_password)
 
 if __name__ == "__main__":
