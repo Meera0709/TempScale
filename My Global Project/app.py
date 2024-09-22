@@ -33,7 +33,11 @@ def main():
     filename = r"C:\\Users\\meera\\Downloads\\Location_Report.txt"
     to_email = "reciever@gmail.com"
     from_email = "sender@gmail.com"
+<<<<<<< HEAD
     from_email_password = "oeao hmtq vvud fvfx"
+=======
+    from_email_password = "password"
+>>>>>>> 0a1666d34a9ee3201a55ad7a06990912367685bb
     read_and_email(filename, to_email, from_email, from_email_password)
 
 if __name__ == "__main__":
